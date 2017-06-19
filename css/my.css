@@ -1,31 +1,270 @@
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      /*margin-bottom: 0;*/
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
+nav.navbar {
+  /*margin-bottom: 0;*/
+  border-radius: 0;
+  border: none;
+  background-color: #555;
+}
+
+
+/* Set black background color, white text and some padding */
+.site-footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+
+  margin-top: 200px; }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+body {
+  font-size: 18px;
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased; }
+
+p {
+  margin-bottom: 30px; }
+
+section, header, footer, main, article, nav, aside {
+  position: relative; }
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
+  transition: all 225ms ease;
+  color: #005960; }
+  a:hover {
+    color: #672E3B; }
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #E0E0E0;
+  border: none !important;
+  color: #fff; }
+  .btn:hover {
+    background: #C0C0C0; }
+
+::selection {
+  background: #672E3B;
+  color: #fff; }
+
+nav.navbar {}
+  nav.navbar a {
+    text-transform: uppercase;
+    font-size: 16px; }
+  nav.navbar .navbar-brand {
+    text-transform: none;
+    font-size: 28px;
+    color: #ffffff; }
+/*    nav.navbar .navbar-brand i {
+      transition: inherit;
+      color: #ffffff;
+      transform: scale(1); }
+    nav.navbar .navbar-brand:hover i {
+      color: #ff6f6f;
+      transform: scale(1.35); }*/
+
+h1.special {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+/*  margin: 0;*/
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 69px;
+  font-weight: 700;
+  color: #223A5E; }
+  h1.special span {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+    max-width: 1000px; }
+    h1.special span:before, h1.special span:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 1px;
+      background: #e8e8e8;
+      width: 99999999px;
+      top: 50%;
+      transform: translateY(-50%); }
+    h1.special span:before {
+      left: 100%; }
+    h1.special span:after {
+      right: 100%; }
+
+.tile {
+  position: relative;
+  box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135);
+  margin-bottom: 50px; }
+  .tile .inner-guts {
+    padding: 10px; }
+  .tile h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    line-height: 50px; }
+  .tile .featurette {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 550px;
+    background-color: #e8e8e8; }
+    .tile .featurette .img {
+      background-size: cover;
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
       height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
+      transition: all 225ms ease;
+      transform: scale(1); }
+      .tile .featurette .img:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        content: '';
+        background: #000;
+        opacity: 0.4;
+        transition: all 225ms ease; }
+    .tile .featurette iframe {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .tile .featurette:hover .img {
+      transform: scale(1.2); }
+      .tile .featurette:hover .img:before {
+        opacity: 0.2; }
+  .tile .excerpt {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #484848; }
+    .tile .excerpt p {
+      margin: 0; }
+  .tile .tags {
+    position: relative;
+    left: 0;
+    top: 100%;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase; }
+    .tile .tags span {
+      padding: 1px 5px;
+      font-size: 12px;
+      line-height: 1.5;
+      text-transform: uppercase; }
+  .tile .read-more {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 175px;
+    position: relative;
+    padding-right: 75px; }
+    .tile .read-more i {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-54%);
+      font-size: 31px;
+      line-height: 100%; }
+
+aside {
+  font-size: 14 px;
+  color: #525252;
+  margin: 16px 0; }
+  aside span {
+    text-transform: uppercase;
+    margin: 0 5px; }
+
+.pagination-wrap {
+  text-align: center;
+}
+
+.pagination li a {
+    background:   #A9A9A9;
+    border-color: #A9A9A9;
+    color: #fff;
+    border-radius: 50% !important;margin: 0 6px;
+}
+.pagination li.active a {
+    background: #005960;
+    border.color: #005960;
+    color: #fff;
+}
+.pagination li:hover:not(.active) a {
+    background:   #A9A9A9;
+    border-color: #A9A9A9;
+    color: #fff;}
+
+pre {
+  padding: 0;
+ }
+
+// for tag cloud and archives
+
+.post-tags {
+  text-align: right;
+}
+
+.tags2 {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;  
+}
+.tags2 li {
+  display: inline-block;
+  margin: 0 25px 25px 0;
+}
+
+#tag-cloud { 
+  font-size: 30px; 
+}
+.tags {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 18px;
+  text-transform: uppercase;  
+}
+.tags li {
+  display: inline-block;
+  margin: 0 25px 25px 0;
+}
+#blog-archives   { 
+  font-size: 30px; 
+}
+#blog-archives h2 {
+  /*text-transform: uppercase;*/ 
+  font-size: 20px; 
+}
+#blog-archives h3 { 
+  font-size: 16px; 
+}
