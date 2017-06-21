@@ -30,10 +30,10 @@
 </head>
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
 
-<div class="container">
+<!-- <div class="container">
 <div class="row">
-<div class="col-md-12">
-
+<div class="col-md-12"> -->
+<link rel="preload" href="/assets/logo2.png" as="image">
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -43,7 +43,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><i class="fa fa-home"></i> {{ site.data.global.title }}</a>
+            <a class="navbar-brand" href="/">{{ site.data.global.title }}</a>
+            <!-- <span class="navbar-brand"><img src="/assets/logo.jpg"/>Create something</span> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -57,6 +58,6 @@
     </div>
 </nav>
 
+<!-- </div>
 </div>
-</div>
-</div> 
+</div>  -->

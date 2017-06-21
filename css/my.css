@@ -1,18 +1,8 @@
-/* Remove the navbar's default margin-bottom and rounded borders */ 
-nav.navbar {
-  /*margin-bottom: 0;*/
-  border-radius: 0;
-  border: none;
-  background-color: #555;
-}
-
-
 /* Set black background color, white text and some padding */
 .site-footer {
   background-color: #555;
   color: white;
   padding: 15px;
-
   margin-top: 200px; }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -61,12 +51,23 @@ a {
   background: #672E3B;
   color: #fff; }
 
-nav.navbar {}
+nav.navbar {
+  border-radius: 0;
+  border: none;
+  background-color: #555;
+  padding: 25px;
+  margin-top: -30px;
+  vertical-align: middle;
+}
   nav.navbar a {
     text-transform: uppercase;
-    font-size: 16px; }
+    font-size: 16px; 
+  }
   nav.navbar .navbar-brand {
     text-transform: none;
+    font-weight: bold;
+    /*font-style: oblique;*/
+    font-family:Verdana;
     font-size: 28px;
     color: #ffffff; }
 /*    nav.navbar .navbar-brand i {
@@ -77,6 +78,15 @@ nav.navbar {}
       color: #ff6f6f;
       transform: scale(1.35); }*/
 
+nav.navbar .navbar-brand:before {
+content: url(/assets/logo2.png);
+height:60px;
+display:inline-block;
+vertical-align: middle;
+background-color: #555;
+
+}
+
 h1.special {
   position: relative;
   text-align: center;
@@ -86,7 +96,7 @@ h1.special {
   font-size: 40px;
   line-height: 69px;
   font-weight: 700;
-  color: #223A5E; }
+  color: #005960; }
   h1.special span {
     display: inline-block;
     position: relative;
@@ -267,4 +277,26 @@ pre {
 }
 #blog-archives h3 { 
   font-size: 16px; 
+}
+#blog-archives ul li { 
+  list-style: none;
+  font-size: 16px; 
+  text-indent: -30px;  
+}
+#blog-archives ul li:before{ 
+  content:"- "; 
+}
+.home ul li { 
+  list-style: none;
+  font-size: 10px; 
+  text-indent: -30px; 
+  line-height: 1.2 !important;
+}
+.home .title { 
+  list-style: none;
+  font-size: 20px; 
+}
+.home ul li:before{ 
+  content:"- "; 
+  font-size: 20px; 
 }
