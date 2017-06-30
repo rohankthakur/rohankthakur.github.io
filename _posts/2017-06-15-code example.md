@@ -2,7 +2,7 @@
 layout: inner
 title: 'Post with some Javascript!'
 date: 2017-06-15 16:12:00
-categories: blog test
+categories: blog-dev programming
 tags: js
 lead_text: 'testing code highlighting'
 ---

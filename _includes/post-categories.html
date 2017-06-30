@@ -1,0 +1,10 @@
+<span class="categories">
+  {% if post %}
+    {% assign cats = post.categories %}
+  {% else %}
+    {% assign cats = page.categories %}
+  {% endif %}
+  {% for cat in cats %}
+  <a href="/tags/#{{tag|slugize}}">{{cat}}</a>{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</span>
