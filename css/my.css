@@ -102,19 +102,28 @@ h1.special {
     position: relative;
     padding: 0 15px;
     max-width: 1000px; }
-    h1.special span:before, h1.special span:after {
+    h1.special span:before {
       content: '';
       position: absolute;
       display: block;
-      height: 1px;
-      background: #e8e8e8;
+      height: 4px;
+      background: #e8e8e8; /*#09bf2a;*/
       width: 99999999px;
       top: 50%;
       transform: translateY(-50%); }
+    h1.special span:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 4px;
+      background: #e8e8e8;  /*#dd0808;*/
+      width: 99999999px;
+      top: 50%;
+      /*transform: translateY(-50%);*/ }  
     h1.special span:before {
       left: 100%; }
     h1.special span:after {
-      right: 100%; }
+      right: 150%; }
 
 .tile {
   position: relative;
@@ -344,3 +353,4 @@ pre {
   font-size: 10px;
   font-size: 0.625rem;
 }
+
