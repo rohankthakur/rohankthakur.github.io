@@ -10,7 +10,7 @@ permalink: /about/
 
   <h2>I am Rohan</h2><br>
       <p style="text-align:justify;">
-        I have more than fourteen years of experience in the P&C reinsurance sector, working with data at scale using various tools like Excel, VBA, SAS and SQL.  
+        I have more than twenty two years of experience in the non-life insurance and reinsurance sector, working with data at scale using various tools like Excel, VBA, SAS, SQL and Palantir Foundry.  
       </p>
       <p style="text-align:justify;"> 
         In my spare time, I learn bits of Python, MySQL & Spark, mostly in the context of data processing and machine learning. And some HTML, CSS and JS along with D3 based libraries to visualise data & results.
