@@ -79,7 +79,7 @@ nav.navbar {
       transform: scale(1.35); }*/
 
 nav.navbar .navbar-brand:before {
-content: url(/assets/logo2.png);
+content: url(/assets/brain_V1.png);
 height:60px;
 display:inline-block;
 vertical-align: middle;
