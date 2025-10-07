@@ -1,7 +1,8 @@
 main:
     # - { url: '/data', text: 'Data & Analytics' }
-    - { url: '/tags', text: 'Find Content' }  
+    - { url: '/about', text: 'About' }    
+    - { url: '/photo', text: 'Photography' }    
+    - { url: '/tags', text: 'Find Stuff' }  
     # - { url: '/archive', text: 'Archive' }   
-    - { url: 'https://github.com/rohankthakur', text: 'GitHub' }
-    - { url: '/photo', text: 'Photography' }
-    - { url: '/about', text: 'About' }
+    # - { url: 'https://github.com/rohankthakur', text: 'GitHub' }
+

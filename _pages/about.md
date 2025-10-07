@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: About
-lead_text: 'a brief introduction'
+lead_text: 'A brief introduction'
 permalink: /about/
 ---
 
