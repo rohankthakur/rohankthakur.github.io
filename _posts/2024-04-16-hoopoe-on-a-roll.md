@@ -20,7 +20,7 @@ images:
 
 This is from an early morning walk, looking for birds and some birdy action.
 
-At a local park, I spot this hoopoe (*Upupa epops*) which seemed pretty hungry and was moving around rapidly, checking the grassy lawn for something to eat.
+At a local park, I spot this Common Hoopoe (*Upupa epops*) which seemed pretty hungry and was moving around rapidly, checking the grassy lawn for something to eat.
 
 ## The Equipment
 

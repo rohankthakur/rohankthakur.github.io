@@ -7,29 +7,29 @@ featured_image: "/assets/images/photography/birds/in-pairs/in-pairs-2.jpg"
 excerpt: "Many times you find couples and families chilling out together."
 gallery:
   - url: /assets/images/photography/birds/in-pairs/in-pairs-1.jpg
-    caption: caption 1
+    caption: Red-whiskered Bulbul (Pycnonotus jocosus)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-2.jpg
-    caption: caption 2
+    caption: Common Rosefinch (Carpodacus erythrinus)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-3.jpg
-    caption: caption 3
+    caption: Indian Peafowl (Pavo cristatus)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-4.jpg
-    caption: caption 4
+    caption: Red-vented Bulbul (Pycnonotus cafer)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-5.jpg
-    caption: caption 5  
+    caption: Black Kite (Milvus migrans)  
   - url: /assets/images/photography/birds/in-pairs/in-pairs-6.jpg
-    caption: caption 6
+    caption: Plum-headed Parakeet (Psittacula cyanocephala)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-7.jpg
-    caption: caption 7
+    caption: House Crow (Corvus splendens)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-8.jpg
-    caption: caption 8  
+    caption: Red-vented Bulbul (Pycnonotus cafer)  
   - url: /assets/images/photography/birds/in-pairs/in-pairs-9.jpg
-    caption: caption 9  
+    caption: Common Myna (Acridotheres tristis)  
   - url: /assets/images/photography/birds/in-pairs/in-pairs-10.jpg
-    caption: caption 10
+    caption: Red-naped Ibis (Pseudibis papillosa)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-11.jpg
-    caption: caption 11
+    caption: Spotted Dove (Stigmatopelia chinensis)
   - url: /assets/images/photography/birds/in-pairs/in-pairs-12.jpg
-    caption: caption 12            
+    caption: Rose-ringed Parakeet (Psittacula krameri)            
 ---
 
 ## The Scene

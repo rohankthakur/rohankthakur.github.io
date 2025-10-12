@@ -7,7 +7,7 @@ featured_image: "/assets/images/photography/birds/bulbul-builder/bulbul-builder-
 excerpt: "A bulbul delicately pulling out some cobwebs to build it's nest."
 images:
   - url: /assets/images/photography/birds/bulbul-builder/bulbul-builder-1.jpg
-    caption: Bubul pulling on a strand of spider web for nesting.
+    caption: Himalayan Bulbul (Pycnonotus leucogenys) - pulling on a strand of spider web for nesting.
 ---
 
 ## The Scene
@@ -20,7 +20,7 @@ A Nikon Z-mount mirrorless body with an 800mm lens, on a shoulder strap - handhe
 
 ## The Waiting Game
 
-After spying this little thing rummaging around between these bamboo sticks, I wondered what it was up to. Bulbuls aren't exactly the types to be getting into such piles of wood, at least not in my experience. So I continued to watch it, ready with the camera up to my eyes, getting down to it's level. Waiting to see what's up...
+After spying this little thing - Himalayan Bulbul (*Pycnonotus leucogenys*) - rummaging around between these bamboo sticks, I wondered what it was up to. Bulbuls aren't exactly the types to be getting into such piles of wood, at least not in my experience. So I continued to watch it, ready with the camera up to my eyes, getting down to it's level. Waiting to see what's up...
 
 ## The Reward
 

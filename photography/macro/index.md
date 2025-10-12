@@ -6,40 +6,40 @@ permalink: /photography/macro/
 images:
   - url: /assets/images/photography/macro/macro-1.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Butterfly larva (Asian Green-veined White?)"
   - url: /assets/images/photography/macro/macro-2.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Planthopper (Meenoplidae)"
   - url: /assets/images/photography/macro/macro-3.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Blowfly (Chrysomya putoria)"
   - url: /assets/images/photography/macro/macro-4.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Indian Red Pierrot (Talicada nyseus)"
   - url: /assets/images/photography/macro/macro-5.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Rice stinkbug (Cletus punctiger)"
   - url: /assets/images/photography/macro/macro-6.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Nymph Cricket"
   - url: /assets/images/photography/macro/macro-7.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Dragonfly (Diplacodes trivialis)"
   - url: /assets/images/photography/macro/macro-8.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Blowfly (Chrysomya putoria)"
   - url: /assets/images/photography/macro/macro-9.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Indian Jewel Bug (Chrysocoris purpureus)"
   - url: /assets/images/photography/macro/macro-10.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Shield bug (Eysarcoris guttiger)"
   - url: /assets/images/photography/macro/macro-11.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"
+    caption: "Cricket (Katydid)"
   - url: /assets/images/photography/macro/macro-12.jpg
     alt: "alt text for a macro photo"
-    caption: "Caption for the macro image"    
+    caption: "Creeping Wood Sorrel (Oxalis corniculata)"    
 ---
 
 Macro photography opens doors to worlds invisible to the naked eye. Simply stopping to take a moment to explore this hidden world is highly rewarding. At magnifications of 1:1 and beyond, ordinary subjects reveal extraordinary beauty, complexity, and design that challenge our perception of scale and detail.

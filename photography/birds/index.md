@@ -6,52 +6,52 @@ permalink: /photography/birds/
 images:
   - url: /assets/images/photography/birds/bird-1.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Asian Paradise-flycatcher (Terpsiphone paradisi)"
   - url: /assets/images/photography/birds/bird-2.jpg  
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Purple Sunbird (Cinnyris asiaticus)"
   - url: /assets/images/photography/birds/bird-3.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Greenish Warbler (Phylloscopus trochiloides)"
   - url: /assets/images/photography/birds/bird-4.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Brahminy Starling (Sturnia pagodarum)"
   - url: /assets/images/photography/birds/bird-5.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Red-whiskered Bulbul (Pycnonotus jocosus)"
   - url: /assets/images/photography/birds/bird-6.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Black Redstart (Phoenicurus ochruros)"
   - url: /assets/images/photography/birds/bird-7.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Eurasian Wryneck (Jynx torquilla)"
   - url: /assets/images/photography/birds/bird-8.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Black Kite (Milvus migrans)"
   - url: /assets/images/photography/birds/bird-9.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Indian Grey Hornbill (Ocyceros birostris)"
   - url: /assets/images/photography/birds/bird-10.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Plum-headed Parakeet (Psittacula cyanocephala)"
   - url: /assets/images/photography/birds/bird-11.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Oriental White-eye (Zosterops palpebrosus)"
   - url: /assets/images/photography/birds/bird-12.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"     
+    caption: "Purple Sunbird (Cinnyris asiaticus)"     
   - url: /assets/images/photography/birds/bird-13.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Ashy Prinia (Prinia socialis)"
   - url: /assets/images/photography/birds/bird-14.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"  
+    caption: "Black Kite (Milvus migrans)"  
   - url: /assets/images/photography/birds/bird-15.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"
+    caption: "Red-wattled Lapwing (Vanellus indicus)"
   - url: /assets/images/photography/birds/bird-16.jpg
     alt: "alt text for a bird photo"
-    caption: "Caption for the bird image"                       
+    caption: "Chestnut-tailed Starling (Sturnia malabarica)"                       
 ---
 
 Bird photography combines patience, technical skill, and deep appreciation for nature. Each image in this collection represents hours of observation and waiting for that perfect moment when light, composition, and behavior align. 
