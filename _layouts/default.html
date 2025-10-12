@@ -1,19 +1,42 @@
-{% include header.html %}
- 
-    {% include title-group.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    {% for post in paginator.posts %}
-                        {% include tile.html %}
-                    {% endfor %}
+    {% seo %}
 
-                    {% include pagination.html %}
-                </div>
-            </div>
-        </div>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+    {% feed_meta %}
+
+    <!-- Google Fonts -->
+     <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    -->
+    
+    <!-- Favicon links -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/images/favicon-48x48.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ '/assets/images/favicon-64x64.png' | relative_url }}">
+    <link rel="shortcut icon" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
     </main>
 
-{% include footer.html %}
+    {% include footer.html %}
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>

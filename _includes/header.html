@@ -1,65 +1,42 @@
-<!doctype html>
-<html itemscope itemtype="http://schema.org/{% if page.id or post.id %}Article{% else %}Organization{% endif %}" lang="en-US">
-<head>
+<header class="site-header">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="{{ '/' | relative_url }}" class="brand-link">
+          {{ site.title | escape }}
+        </a>
+      </div>
 
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} - {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} - {{ site.data.global.title }}{% else %}{{ site.data.global.title }} - {{ site.data.global.description }}{% endif %}</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+      <label for="navbar-toggle" class="navbar-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-    <!-- Styles -->
+      <div class="navbar-menu">
+        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
 
-      <link rel="stylesheet" href="/css/py_notebook.css"> 
-<!--       <link rel="stylesheet" href="/css/ipython.min.css"> 
-      <link rel="stylesheet" href="/css/style.min.css">  -->       
-      <link rel="stylesheet" href="/css/dc.min.css"> 
-      <link rel="stylesheet" href="/css/bootstrap.min.css">
-      <link rel="stylesheet" href="/css/sunburst.css">  
-      <link rel="stylesheet" href="/css/my.css">  
-
-    <!-- JavaScript -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/highlight.pack.js"></script>
-    <script src="/js/power.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-</head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
-
-<!-- <div class="container">
-<div class="row">
-<div class="col-md-12"> -->
-<link rel="preload" href="/assets/brain_V1.png" as="image">
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">{{ site.data.global.title }}</a>
-            <!-- <span class="navbar-brand"><img src="/assets/logo.jpg"/>Create something</span> -->
+        <div class="nav-dropdown">
+          <a href="{{ '/photography/' | relative_url }}" class="nav-link dropdown-toggle {% if page.url contains '/photography' %}active{% endif %}">Photography</a>
+          <div class="dropdown-menu">
+            <a href="{{ '/photography/birds/' | relative_url }}" class="dropdown-link">Birds</a>
+            <a href="{{ '/photography/macro/' | relative_url }}" class="dropdown-link">Macro</a>
+          </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                {% for item in site.data.nav.main %}
-                    <li>
-                        <a href="{{ item.url }}">{{ item.text }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+
+        <div class="nav-dropdown">
+          <a href="{{ '/art/' | relative_url }}" class="nav-link dropdown-toggle {% if page.url contains '/art' %}active{% endif %}">Art</a>
+          <div class="dropdown-menu">
+            <a href="{{ '/art/sketches/' | relative_url }}" class="dropdown-link">Sketches</a>
+            <a href="{{ '/art/paintings/' | relative_url }}" class="dropdown-link">Paintings</a>
+          </div>
         </div>
+
+        <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url contains '/projects' %}active{% endif %}">Projects</a>
+        <a href="{{ '/misc/' | relative_url }}" class="nav-link {% if page.url contains '/misc' %}active{% endif %}">Misc</a>
+      </div>
     </div>
-</nav>
-
-<!-- </div>
-</div>
-</div>  -->
+  </nav>
+</header>

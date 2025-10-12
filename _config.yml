@@ -1,75 +1,112 @@
-  # Where things are
-source:      .
-destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
-data_dir: ./_data
-# collections: null
+title: Rohan Kumar Thakur
+email: your-email@example.com
+description: >-
+  My portfolio website showcasing photography, art, 
+  technical projects, and miscellaneous content.
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+baseurl: ""
+url: "https://rohankthakur.github.io/"
+twitter_username: yourusername
+github_username: rohankthakur
+linkedin_username: rohanthakur
+flickr_username: rohanthakur
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+    css_class: 'highlight'
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Plugins
-whitelist: []
-gems:      [jekyll-paginate-v2]
-plugins: [jekyll-paginate-v2]
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
 
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
+# Pagination settings (using jekyll-paginate-v2)
+#pagination:
+#  enabled: true
+#  per_page: 6
+#  permalink: '/page/:num/'
+#  title: ':title - Page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
+#  collection: 'posts'
+#  extension: html
+#  indexpage: 'index'
 
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
+# Category pagination
+#autopages:
+  #enabled: true
+  #collections:
+    #enabled: false
+  #categories:
+    #layouts: ['category.html']
+    #title: ':cat'
+    #permalink: '/:cat/'
+    #slugify:
+      #mode: 'default'
+      #case: false
+  #tags:
+    #layouts: ['tag.html']
+    #title: 'Tagged: :tag'
+    #permalink: '/tag/:tag/'
 
-# Outputting
-permalink:     /:title.html
-paginate: 5
-paginate_path: /page:num
-timezone:      null
+# Collections - not needed for post-based approach
+# collections:
 
-quiet:    false
-defaults: []
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Rohan Kumar Thakur"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
-# Markdown Processors
-rdiscount:
-  extensions: []
+# GitHub Pages safe settings
+safe: false  # Set to true for GitHub Pages, false for GitHub Actions
+incremental: false
+lsi: false
 
-redcarpet:
-  extensions: []
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - setup.sh
+  - setup.bat
+  - "*.bat"
+  - "*.sh"
 
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+# Include
+include:
+  - .htaccess
+  - _pages
 
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
+# Timezone
+timezone: Asia/Kolkata
 
-
-include: ['_pages' , '_photo']
-exclde: ['_scratch' , '_drafts']
+# Permalink structure
+permalink: /:categories/:year/:month/:day/:title/

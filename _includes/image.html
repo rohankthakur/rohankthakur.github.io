@@ -1,0 +1,10 @@
+{% assign img = page.images[include.index] %}
+<div class="post-image {% if img.size %}{{ img.size }}{% endif %}">
+  <img src="{{ img.url | relative_url }}" 
+       alt="{{ img.alt }}" 
+       onclick="openLightbox('{{ img.url | relative_url }}', '{{ img.caption }}')"
+       loading="lazy">
+  {% if img.caption %}
+  <div class="image-caption">{{ img.caption }}</div>
+  {% endif %}
+</div>

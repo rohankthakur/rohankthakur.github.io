@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="tag-page">
+  <div class="container">
+    <header class="page-header">
+      <h1>Posts tagged “{{ page.tag }}”</h1>
+    </header>
+    <div class="posts-grid">
+      {% for post in site.tags[page.tag] %}
+        {% include pagination.html %}
+        {% include category.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

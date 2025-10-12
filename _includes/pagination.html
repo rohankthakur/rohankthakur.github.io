@@ -1,35 +1,27 @@
-<nav class="pagination-wrap">
-    <ul class="pagination pagination-sm">
-        {% if paginator.previous_page %}
-        <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        {% endif %}
+{% if paginator %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-item prev">
+      &larr; Previous
+    </a>
+  {% endif %}
 
-        {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-            <li class="active">
-                <a href="#">{{ page }}</a>
-            </li>
-            {% elsif page == 1 %}
-            <li>
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-            </li>
-            {% else %}
-            <li>
-                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-            </li>
-            {% endif %}
-        {% endfor %}
+  <div class="pagination-numbers">
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="pagination-item current">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.first_page_path | relative_url }}" class="pagination-item">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="pagination-item">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-        {% if paginator.next_page %}
-        <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-        {% endif %}
-    </ul>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-item next">
+      Next &rarr;
+    </a>
+  {% endif %}
 </nav>
+{% endif %}

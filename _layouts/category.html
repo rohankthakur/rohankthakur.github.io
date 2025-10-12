@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <div class="container">
+    <header class="category-header">
+      <h1 class="category-title">{{ page.title | escape }}</h1>
+      {% if page.category %}
+      <p class="category-description">
+        Showing posts in <strong>{{ page.category | capitalize }}</strong>
+      </p>
+      {% endif %}
+    </header>
+ 
+    <!-- Render the page’s own text/content here -->
+    <div class="page-intro">
+      {{ content }}
+    </div>
+
+    <div class="posts-grid">
+      {% assign posts = paginator.posts | default: site.categories[page.category] %}
+      {% for post in posts %}
+        <article class="post-card">
+          {% if post.featured_image %}
+          <div class="post-card-image">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            </a>
+          </div>
+          {% endif %}
+
+          <div class="post-card-content">
+            <h2 class="post-card-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+
+            <div class="post-card-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+            </div>
+
+            <p class="post-card-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 25 }}
+            </p>
+
+            <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+
+    {% if paginator %}
+      {% include pagination.html %}
+    {% endif %}
+  </div>
+</div>

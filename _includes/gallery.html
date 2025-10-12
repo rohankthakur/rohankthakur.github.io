@@ -1,0 +1,22 @@
+<div class="image-gallery">
+  {% for image in include.images %}
+    <div class="gallery-item">
+      {% if image.url %}
+        <!-- Object format with url and caption -->
+        <img src="{{ image.url | relative_url }}" 
+             alt="{{ image.caption | default: 'Gallery image' }}" 
+             onclick="openLightbox('{{ image.url | relative_url }}', '{{ image.caption }}')"
+             loading="lazy">
+        {% if image.caption and include.show_captions %}
+          <div class="gallery-caption">{{ image.caption }}</div>
+        {% endif %}
+      {% else %}
+        <!-- Simple string format -->
+        <img src="{{ image | relative_url }}" 
+             alt="Gallery image" 
+             onclick="openLightbox('{{ image | relative_url }}', '')"
+             loading="lazy">
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
