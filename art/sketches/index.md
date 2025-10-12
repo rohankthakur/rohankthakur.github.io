@@ -6,25 +6,25 @@ permalink: /art/sketches/
 images:
   - url: /assets/images/art/sketches/sketch-1.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Amsterdam!"
   - url: /assets/images/art/sketches/sketch-2.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Cup and bowl, pencils"
   - url: /assets/images/art/sketches/sketch-3.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Faces, pencils"
   - url: /assets/images/art/sketches/sketch-4.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Faces, pencils"
   - url: /assets/images/art/sketches/sketch-5.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Piles of nothing, pencils"
   - url: /assets/images/art/sketches/sketch-6.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Faces, pen and ink"
   - url: /assets/images/art/sketches/sketch-7.jpg
     alt: "alt text for sketch"
-    caption: "Caption for sketch"
+    caption: "Storefront, Skecth pens"
 ---
 
 Sketching forms the foundation of my artistic practice. These works represent a combination of observational studies, creative explorations, and technical exercises designed to improve draftsmanship and visual understanding.

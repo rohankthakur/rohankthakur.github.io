@@ -6,16 +6,16 @@ permalink: /art/paintings/
 images:
   - url: /assets/images/art/paintings/paintings-1.jpg
     alt: "alt text for painting"
-    caption: "Caption for painting"
+    caption: "Flora, watercolors"
   - url: /assets/images/art/paintings/paintings-2.jpg
     alt: "alt text for painting"
-    caption: "Caption for painting"
+    caption: "Out of my window, watercolors"
   - url: /assets/images/art/paintings/paintings-3.jpg
     alt: "alt text for painting"
-    caption: "Caption for painting"
+    caption: "Flora, watercolors"
   - url: /assets/images/art/paintings/paintings-4.jpg
     alt: "alt text for painting"
-    caption: "Caption for painting"
+    caption: "Landscape sketches, watercolors"
   - url: /assets/images/art/paintings/painting-5.svg
     alt: "alt text for painting"
     caption: "Caption for painting"
