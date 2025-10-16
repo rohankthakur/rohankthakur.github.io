@@ -21,9 +21,14 @@
         <div class="social-links">
 
           {% if site.linkedin_username %}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="social-link" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" class="social-link" target="_blank" rel="noopener">
               <svg class="social-icon" viewBox="0 0 24 24">
-                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8H4.5V24H.5V8zm7.5 0H11v2.2h.1c.4-.8 1.4-1.6 2.8-1.6 3 0 3.5 2 3.5 4.6V24h-4v-7.7c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.8H.5V8h7.5z"/>
+                <!-- Rounded square background -->
+                <rect x="2" y="2" width="20" height="20" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                <!-- "in" letters -->
+                <path d="M8.34 10.5H6v7h2.34v-7z" fill="currentColor"/>
+                <path d="M7.17 8.5a1.17 1.17 0 1 1 0-2.34 1.17 1.17 0 0 1 0 2.34z" fill="currentColor"/>
+                <path d="M12.5 10.5h2.22v1h.03a2.42 2.42 0 0 1 2.17-1.19c2.32 0 2.75 1.53 2.75 3.52v4.17h-2.34v-3.69c0-.88-.02-2.02-1.23-2.02-1.23 0-1.42.96-1.42 1.96v3.75H12.5v-7z" fill="currentColor"/>
               </svg>
               LinkedIn
             </a>
@@ -53,6 +58,20 @@
                 <circle cx="16" cy="12" r="4" fill="#FF0084"/>
               </svg>
               Flickr
+            </a>
+          {% endif %}
+
+          {% if site.instagram_username %}
+            <a href="https://www.instagram.com/{{ site.instagram_username }}/" class="social-link" target="_blank" rel="noopener">
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <!-- Rounded square -->
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                <!-- Center circle (lens) -->
+                <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                <!-- Small top-right circle (flash) -->
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+              </svg>
+              Instagram
             </a>
           {% endif %}
 
